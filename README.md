@@ -2,7 +2,9 @@
 
 Taskflow is a modern, responsive To-Do application designed to help you organize your daily tasks efficiently. Built with standard web technologies and powered by Firebase, it offers real-time synchronization and secure user authentication.
 
-![Taskflow Preview](https://via.placeholder.com/800x400?text=Taskflow+Preview) 
+[![Live Demo](https://img.shields.io/badge/demo-online-green.svg)](https://pranay08-bit.github.io/APPAG/)
+
+![Taskflow Preview](assets/preview.png) 
 *(Note: Replace with actual screenshot if available)*
 
 ## Features
