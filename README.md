@@ -65,6 +65,21 @@ To run this project locally, follow these steps:
 3.  **Manage**: Click the checkbox to mark as complete, or the trash icon to delete.
 4.  **Filter**: Use the tabs to view specific task lists.
 
+## Deployment
+
+This app is ready for deployment on static hosting services like GitHub Pages or Firebase Hosting.
+
+### Important: Firebase Authentication
+If you deploy this app to a live URL (e.g., `your-username.github.io`), you **MUST** add that domain to your Firebase Authorized Domains list:
+
+1.  Go to the [Firebase Console](https://console.firebase.google.com/).
+2.  Select your project.
+3.  Navigate to **Authentication** > **Settings** > **Authorized Domains**.
+4.  Click **Add Domain**.
+5.  Enter your app's domain (e.g., `pranay08-bit.github.io`).
+
+If you don't do this, Google Sign-In and other auth features will fail.
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
